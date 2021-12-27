@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="JGe8Si" name="SimpleMBComp" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" cppLanguageStandard="17">
   <MAINGROUP id="SofRkk" name="SimpleMBComp">
     <GROUP id="{25179DBA-8115-4C24-2F5F-62209B32D24B}" name="Source">
       <FILE id="j4CRNo" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -17,7 +17,7 @@
   <EXPORTFORMATS>
     <VS2019 targetFolder="Builds/VisualStudio2019">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="SimpleMBComp"/>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SimpleMBComp" enablePluginBinaryCopyStep="1"/>
         <CONFIGURATION isDebug="0" name="Release" targetName="SimpleMBComp"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
